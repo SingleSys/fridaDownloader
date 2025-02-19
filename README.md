@@ -2,6 +2,10 @@
 
 fridaDownloader is a command-line tool that streamlines downloading the Frida Gadget or Server for Android, enabling developers and security researchers to quickly access the components needed for dynamic instrumentation.
 
+![GitHub Release](https://img.shields.io/github/v/release/mateofumis/FridaDownloader)
+![PyPI - Version](https://img.shields.io/pypi/v/fridaDownloader)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/fridaDownloader)
+
 ## Features
 
 - **Download Options**: Easily download either the Frida Gadget or Server for Android.
@@ -50,8 +54,6 @@ pip3 install fridaDownloader
 ```bash
 pipx install fridaDownloader 
 ```
-
-See this project on PyPi: [https://pypi.org/project/fridaDownloader/](https://pypi.org/project/fridaDownloader/) 
 
 ## Usage
 
