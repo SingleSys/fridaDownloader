@@ -101,6 +101,8 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
-## 🧡 Support me with a virtual Coffee! 🧡
+## Support me with a virtual Coffee! ❤️
 
-[![Ko-Fi](https://storage.ko-fi.com/cdn/brandasset/kofi_button_stroke.png)](https://ko-fi.com/hackermater)
+<a href="https://ko-fi.com/hackermater">
+    <img src="https://storage.ko-fi.com/cdn/brandasset/kofi_button_stroke.png" alt="Ko-Fi" width="400" />
+</a>
