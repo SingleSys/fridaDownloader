@@ -83,10 +83,10 @@ def main():
 
     parser = argparse.ArgumentParser(description="Download Frida Gadget or Server for Android")
     
-    parser.add_argument('--version', type=str, help="Download a specific version of Frida")
-    parser.add_argument('--target', type=str, choices=['gadget', 'server'], required=True, help="Specify the target to download: gadget or server")
-    parser.add_argument('--architecture', type=str, default='arm', help="Android architecture (default: arm). Options: arm, arm64, x86, x86_64")
-    parser.add_argument('--output', type=str, default=os.path.expanduser('~') + '/Downloads', help="Directory to save the downloaded file (default: ~/Downloads)")
+    parser.add_argument('-v', '--version', type=str, help="Download a specific version of Frida")
+    parser.add_argument('-t', '--target', type=str, choices=['gadget', 'server'], required=True, help="Specify the target to download: gadget or server")
+    parser.add_argument('-a', '--architecture', type=str, default='arm', help="Android architecture (default: arm). Options: arm, arm64, x86, x86_64")
+    parser.add_argument('-o', '--output', type=str, default=os.path.expanduser('~') + '/Downloads', help="Directory to save the downloaded file (default: ~/Downloads)")
 
     args = parser.parse_args()
 

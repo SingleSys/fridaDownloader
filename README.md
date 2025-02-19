@@ -63,19 +63,18 @@ $: fridaDownloader -h
 *                           by hackermater  *
 *********************************************
 
-usage: fridaDownloader.py [-h] [--version VERSION] --target {gadget,server} [--architecture ARCHITECTURE]
-                          [--output OUTPUT]
+usage: fridaDownloader.py [-h] [-v VERSION] -t {gadget,server} [-a ARCHITECTURE] [-o OUTPUT]
 
 Download Frida Gadget or Server for Android
 
 options:
   -h, --help            show this help message and exit
-  --version VERSION     Download a specific version of Frida
-  --target {gadget,server}
+  -v, --version VERSION     Download a specific version of Frida
+  -t, --target {gadget,server}
                         Specify the target to download: gadget or server
-  --architecture ARCHITECTURE
+  -a, --architecture ARCHITECTURE
                         Android architecture (default: arm). Options: arm, arm64, x86, x86_64
-  --output OUTPUT       Directory to save the downloaded file (default: ~/Downloads)
+  -o, --output OUTPUT       Directory to save the downloaded file (default: ~/Downloads)
 ```
 
 ## Examples
@@ -83,13 +82,13 @@ options:
 - Download the last version of Frida Server for x86 architecture:
 
 ```bash
-python3 fridaDownloader.py --target server --architecture x86
+python3 fridaDownloader.py -t server -a x86
 ```
 
 - Download a specific version of Frida Gadget for arm64 architecture with specific output:
 
 ```bash
-python3 fridaDownloader.py --target gadget --architecture arm64 --version 15.2.0 --output ~/Frida/Gadget/frida-gadget-arm64
+python3 fridaDownloader.py -t gadget -a arm64 -v 15.2.0 -o ~/Frida/Gadget/frida-gadget-arm64
 ```
 
 ## License
