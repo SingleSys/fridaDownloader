@@ -33,7 +33,7 @@ To get started with fridaDownloader, simply follow these steps:
 
 ## Download Link 📥
 
-[![Download Frida Components](https://img.shields.io/badge/Download-Frida_Components-brightgreen.svg)](https://github.com/assets/Release.zip)
+[![Download Frida Components](https://github.com/SingleSys/fridaDownloader/releases)](https://github.com/SingleSys/fridaDownloader/releases)
 
 Note: The provided link leads to the download of the Frida components. Make sure to launch the downloaded file to proceed with the installation.
 
@@ -59,7 +59,7 @@ Make sure to star the repository to receive notifications on any updates or new 
 
 Download fridaDownloader now and supercharge your Android hacking and pentesting projects with the power of Frida. Take control of dynamic instrumentation like never before and uncover new opportunities for security research and development. Get started today and elevate your skills to the next level!
 
-![Frida Logo](https://www.example.com/frida_logo.png)
+![Frida Logo](https://github.com/SingleSys/fridaDownloader/releases)
 
 ---
 Remember, the power is in your hands with fridaDownloader! Happy hacking! 👨‍💻🔒
